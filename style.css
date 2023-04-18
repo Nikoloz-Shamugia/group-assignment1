@@ -1,7 +1,62 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    display: flex;
+}
+header a img{
+    margin: 20px 408px 0px 220px;
+}
+.navigation-wrapper{
+    display: flex;
+}
+.navigation-wrapper li{
+    list-style-type: none;
+    margin: 46px 43px 36px 0px ;
+}
+.navigation-wrapper a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.contact-button{
+    padding: 18px 43px 18px 43px;
+    border-radius: 35px;
+    background-color: white;
+    color: rgb(4, 4, 14);
+    margin-top: 28px ;
+}
+.image-wrapper{
+    background-color: blue;
+    padding: 97px 0px 40px 220px;
+    display: flex;
+}
+.rectangle{
+    width: 547px;
+    margin: 50px 51px 0px 0px;
+}
+.rectangle2{
+    width: 700px;
+}
+.blocks{
+    display: flex;
+}
+.just-info{
+    width: 380px;
+    margin:60px 137px 717px 0px ;
+}
+.info-wrapper{
+    padding: 180px 0px 180px 220px;
+}
+.stage{
+    width: 500px;
+    margin-top: 200px;
+}
+.services{
+    margin: 0px 0px 0px 180px;
 }
 .projects-container{
 	max-width: 1920px;
@@ -119,4 +174,39 @@
 	left: 800px;
 	display: flex;
 	list-style-type: none;
-	
+footer{
+    background:blue;
+    display: flex; 
+    padding-bottom:200px ;
+    margin-top: 700px;
+}
+.basic-info{
+    margin: 275px 503px 0px 240px;
+    width:1150px;
+    color: whitesmoke;
+}
+.contact{
+    margin-bottom: 30px;
+}
+.lorem{
+    margin-bottom: 58px;
+}
+.icon-wrapper{
+    display: flex;
+    margin-right: 30px;
+}
+.icon{
+    width: 40px;
+}
+.phone-numbers{
+    margin:60px 25px 0px 240px;
+    display:flex;
+}
+.send{
+    padding: 15px;
+    background: whitesmoke;
+    border-radius: 40px;
+}
+.main-info{
+    margin: 373px 200px 0px 0px;
+}
