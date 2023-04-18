@@ -1,4 +1,4 @@
-
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -103,7 +103,6 @@ header a img{
 	text-align: left;
 	margin-top: 40px;
 	margin-left: 12px;
-
 }
 .second-text{
 	width: 353px;
@@ -140,7 +139,6 @@ header a img{
 	margin:0 auto;
 	display: inline-block;
 }
-
 .partniors-container h2{
 	position: absolute;
 	top: 720px;
@@ -157,7 +155,6 @@ header a img{
 	top: 820px;
 	left: 55px;
 }
-
 .partniors-logos ul {
 	width: 200px;
 	position: absolute;
@@ -174,6 +171,7 @@ header a img{
 	left: 800px;
 	display: flex;
 	list-style-type: none;
+}
 footer{
     background:blue;
     display: flex; 
