@@ -1,4 +1,4 @@
-*{
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -58,6 +58,122 @@ header a img{
 .services{
     margin: 0px 0px 0px 180px;
 }
+.projects-container{
+	max-width: 1920px;
+	margin:0 auto;
+    height: 308px;
+    background-color:#0a22f4;
+ }
+ h1{
+ 	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	opacity: 1;
+	text-align: left;
+	position: absolute;
+	font-size: 29px;
+	padding:70px 130px;
+
+ }
+ .project-box{
+ 	border-radius: 15px;
+    opacity: 1;
+ 	width: 480px;
+	height: 290px;
+	display: inline-block;
+	margin-left: 20px;
+    margin-top: 213px;
+}
+.slide-img{
+	width: 420px;
+    height: 290px;
+}
+.slider{
+	width: 353px;
+    height: 125px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 370px;
+    left: 55px;
+    justify-content: center;
+}
+.slider-text{
+	font-size: 18px;
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 12px;
+
+}
+.second-text{
+	width: 353px;
+    height: 125px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 370px;
+    left:555px;
+}
+.third-text{
+	width: 353px;
+    height: 125px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 370px;
+    left:1055px;
+}
+.other-project{
+	position: absolute;
+	top: 580px;
+	left:1330px;
+	letter-spacing: 0px;
+    color: #171717;
+    text-transform: uppercase;
+    opacity: 1;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.partniors{
+	max-width: 1920px;
+	margin:0 auto;
+	display: inline-block;
+}
+
+.partniors-container h2{
+	position: absolute;
+	top: 720px;
+	left: 55px;
+	letter-spacing: 0px;
+	color: #171717;
+	opacity: 1;
+	text-align: left;
+	font-size: 22px;
+}
+.partniors-container p {
+	width: 400px;
+	position: absolute;
+	top: 820px;
+	left: 55px;
+}
+
+.partniors-logos ul {
+	width: 200px;
+	position: absolute;
+	top: 780px;
+	left: 800px;
+	display: flex;
+	list-style-type: none;
+	
+}
+.partniors-logos ol {
+	width: 200px;
+	position: absolute;
+	top: 880px;
+	left: 800px;
+	display: flex;
+	list-style-type: none;
 footer{
     background:blue;
     display: flex; 
